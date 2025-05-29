@@ -58,7 +58,7 @@ const Navbar = () => {
               scrollToSection('home');
             }}
           >
-            <span className="text-gradient">Portfolio</span>
+            <span className="text-gradient">Delil Temel</span>
           </BootstrapNavbar.Brand>
           
           <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" />

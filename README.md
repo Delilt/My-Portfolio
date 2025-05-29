@@ -151,7 +151,7 @@ Bu proje MIT lisansı altında lisanslanmıştır.
 
 ## 📞 İletişim
 
-- **Email**: delil@example.com
+- **Email**: dtemel844@gmail.com
 - **LinkedIn**: [linkedin.com/in/deliltemel](https://linkedin.com)
 - **GitHub**: [github.com/deliltemel](https://github.com)
 

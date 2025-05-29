@@ -10,7 +10,7 @@ const Footer = () => {
     { icon: <FaGithub />, url: 'https://github.com', label: 'GitHub' },
     { icon: <FaLinkedin />, url: 'https://linkedin.com', label: 'LinkedIn' },
     { icon: <FaTwitter />, url: 'https://twitter.com', label: 'Twitter' },
-    { icon: <FaEnvelope />, url: 'mailto:delil@example.com', label: 'Email' }
+    { icon: <FaEnvelope />, url: 'mailto:dtemel844@gmail.com', label: 'Email' }
   ];
 
   const scrollToTop = () => {
@@ -18,7 +18,7 @@ const Footer = () => {
   };
 
   return (
-    <footer className="footer">
+    <footer className="footer" style={{ marginTop: '30px' }}>
       <Container>
         <Row className="align-items-center">
           <Col lg={6} md={6} className="text-center text-md-start">
@@ -27,7 +27,7 @@ const Footer = () => {
                 <span className="text-gradient">Delil Temel</span>
               </h5>
               <p className="footer-text mb-3">
-                Modern web teknolojileri ile yaratıcı çözümler geliştiren Full Stack Developer
+                Modern teknolojiler ile yaratıcı çözümler geliştiren Full Stack Developer
               </p>
               <p className="copyright">
                 © {currentYear} Tüm hakları saklıdır. 
