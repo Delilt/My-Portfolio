@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import AOS from 'aos';
+import { Analytics } from '@vercel/analytics/react';
 import './App.scss';
 
 // Context
@@ -61,6 +62,7 @@ function App() {
             </Routes>
           </main>
           <Footer />
+          <Analytics />
         </div>
       </Router>
     </ThemeProvider>
