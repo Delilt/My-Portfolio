@@ -14,7 +14,7 @@ function InteractiveParticleSystem({ count = 3000 }) {
   const [positions, colors] = useMemo(() => {
     const positions = new Float32Array(count * 3);
     const colors = new Float32Array(count * 3);
-    const scales = new Float32Array(count);
+    
 
     for (let i = 0; i < count; i++) {
       // Pozisyonlar - küre şeklinde dağıtım
@@ -34,12 +34,9 @@ function InteractiveParticleSystem({ count = 3000 }) {
       colors[i * 3] = baseColor.r;
       colors[i * 3 + 1] = baseColor.g;
       colors[i * 3 + 2] = baseColor.b;
-
-      // Ölçekler
-      scales[i] = Math.random() * 0.5 + 0.5;
     }
 
-    return [positions, colors, scales];
+    return [positions, colors];
   }, [count, isDarkMode]);
 
   useFrame((state) => {
