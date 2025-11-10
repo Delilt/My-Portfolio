@@ -1,6 +1,5 @@
 import React from 'react';
 import { Container, Row, Col, ProgressBar } from 'react-bootstrap';
-import { motion } from 'framer-motion';
 import { 
   FaPython, 
   FaHtml5, 
