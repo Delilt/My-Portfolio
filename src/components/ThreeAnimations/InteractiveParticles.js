@@ -11,7 +11,7 @@ function InteractiveParticleSystem({ count = 3000 }) {
   const [hovered, setHovered] = useState(false);
 
   // Parçacık pozisyonları ve özelliklerini oluştur
-  const [positions, colors, scales] = useMemo(() => {
+  const [positions, colors, _scales] = useMemo(() => {
     const positions = new Float32Array(count * 3);
     const colors = new Float32Array(count * 3);
     const scales = new Float32Array(count);
